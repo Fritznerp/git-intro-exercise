@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # How this script should behave:
-#
+# First, let's try to clean the script
+
 # INPUT:   Paths to one or more fasta sequence files
 #
 # OUTPUT:  For each file, it should write a line with the number of sequences
