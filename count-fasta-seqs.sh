@@ -1,8 +1,14 @@
 #!/bin/sh
 
+
 #Removed and readded # comment
+
+#Still wondering how it works!
+#I just wanna see am i able to commit somethingd see others
+
 # How this script should behave:
-#
+# First, let's try to clean the script
+
 # INPUT:   Paths to one or more fasta sequence files
 #
 # OUTPUT:  For each file, it should write a line with the number of sequences
