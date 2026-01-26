@@ -1,4 +1,5 @@
 #!/bin/sh
+# I am hoping everyone can  figure this out
 #Still wondering how it works!
 #I just wanna see am i able to commit somethingd see others
 # How this script should behave:
