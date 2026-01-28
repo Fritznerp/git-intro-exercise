@@ -100,4 +100,8 @@ echo "$@"
 # Good luck!
 #
 # ADD YOUR CODE BELOW:
-
+for file_path in "$@"
+do
+  echo $file_path
+  grep ">" "$file_path"
+done
