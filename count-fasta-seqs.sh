@@ -101,3 +101,21 @@ echo "$@"
 #
 # ADD YOUR CODE BELOW:
 
+
+echo "$@"
+
+# a for loop
+
+total=0
+
+for file_path in "$@"
+do
+#echo $file_path
+
+count=$(grep ">" "$file_path" | wc -l)
+echo $count $file_path
+total=$(expr $count + $total)
+file_name=$(basename $file_path)
+done
+
+echo $total
