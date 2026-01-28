@@ -1,5 +1,5 @@
 #!/bin/sh
-
+# 
 # I am hoping everyone can  figure this out
 
 #Removed and readded # comment
@@ -120,3 +120,4 @@ echo $count $file_name
 done
 
 echo $total
+#okay i can do it
