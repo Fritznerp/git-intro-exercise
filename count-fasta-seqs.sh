@@ -18,11 +18,11 @@
 # EXAMPLE: In the same directory as this script, you should find an example
 #          fasta file named 'example-seqs1.fasta', which contains:
 #
-          >RMB3263_Cyrtodactylus_philippinicus_Negros
-          CGGGCCCATACCCCGAAAATGTTGGTATAAACCCCTTCCTATACTAATAAACCCCATTATTTGATCACTATTACTAAC
+ #         >RMB3263_Cyrtodactylus_philippinicus_Negros
+#          CGGGCCCATACCCCGAAAATGTTGGTATAAACCCCTTCCTATACTAATAAACCCCATTATTTGATCACTATTACTAAC
           
-        >CWL052_Cyrtodactylus_philippinicus_Negros
-          CGGGCCCATACCCCGAAAATGTTGGTATAAACCCCTTCCTATACTAATAAACCCCATTATTTGATCACTATTACTAAC
+ #       >CWL052_Cyrtodactylus_philippinicus_Negros
+  #        CGGGCCCATACCCCGAAAATGTTGGTATAAACCCCTTCCTATACTAATAAACCCCATTATTTGATCACTATTACTAAC
 #
 #          If you run this script on this fasta file, you want to get the
 #          following output:          
@@ -34,14 +34,14 @@
 #          There should be another example fasta file named
 #          'example-seqs2.fasta', which contains:
 #
-          >RMB7155_Sphenomorphus_arborens_Negros
-          ATGAACCCCATTATAACCTCCCTCATTTTATCAAGCCTGGCCCTTGGAACCGTAATCACACTAACAAGCTACCACTGA
+   #       >RMB7155_Sphenomorphus_arborens_Negros
+    #      ATGAACCCCATTATAACCTCCCTCATTTTATCAAGCCTGGCCCTTGGAACCGTAATCACACTAACAAGCTACCACTGA
           
-          >RMB7156_Sphenomorphus_arborens_Negros
-          ATGAACCCCATTATAACCTCCCTCATTTTATCAAGCCTGGCCCTTGGAACCGTAATCACACTAACAAGCTACCACTGA
+     #     >RMB7156_Sphenomorphus_arborens_Negros
+      #    ATGAACCCCATTATAACCTCCCTCATTTTATCAAGCCTGGCCCTTGGAACCGTAATCACACTAACAAGCTACCACTGA
           
-          >RMB7163_Sphenomorphus_arborens_Negros
-          ATGAACCCCATTATAACCTCCCTCATTTTATCAAGCCTGGCCCTTGGAACCGTAATCACACTAACAAGCTACCACTGA
+       #   >RMB7163_Sphenomorphus_arborens_Negros
+        #  ATGAACCCCATTATAACCTCCCTCATTTTATCAAGCCTGGCCCTTGGAACCGTAATCACACTAACAAGCTACCACTGA
 #
 #          If you run this script on BOTH fasta files, you want to get the
 #          following output:          
@@ -70,7 +70,7 @@
 # files that were 'given to' this script. The variable "$@" will be very useful
 # for this. Let's take a look at what it gives us:
 
-echo "$@"
+#echo "$@"
 
 # How are you going to work with each file path?
 # HINT: for loop (remember "for do done"?)
@@ -102,7 +102,7 @@ echo "$@"
 # ADD YOUR CODE BELOW:
 
 
-echo "$@"
+#echo "$@"
 
 # a for loop
 
@@ -113,9 +113,9 @@ do
 #echo $file_path
 
 count=$(grep ">" "$file_path" | wc -l)
-echo $count $file_path
 total=$(expr $count + $total)
 file_name=$(basename $file_path)
+echo $count $file_name
 done
 
 echo $total
