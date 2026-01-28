@@ -1,7 +1,15 @@
 #!/bin/sh
+<<<<<<< HEAD
 # I am hoping everyone can  figure this out
+=======
+
+
+#Removed and readded # comment
+
+>>>>>>> 14e2dd277892276f7254d45413a3c7c42a36b437
 #Still wondering how it works!
 #I just wanna see am i able to commit somethingd see others
+
 # How this script should behave:
 # First, let's try to clean the script
 
@@ -17,7 +25,7 @@
 #          >RMB3263_Cyrtodactylus_philippinicus_Negros
 #          CGGGCCCATACCCCGAAAATGTTGGTATAAACCCCTTCCTATACTAATAAACCCCATTATTTGATCACTATTACTAAC
 #          
-#          >CWL052_Cyrtodactylus_philippinicus_Negros
+#        >CWL052_Cyrtodactylus_philippinicus_Negros
 #          CGGGCCCATACCCCGAAAATGTTGGTATAAACCCCTTCCTATACTAATAAACCCCATTATTTGATCACTATTACTAAC
 #
 #          If you run this script on this fasta file, you want to get the
